@@ -24,4 +24,42 @@ author Dzyuba Sergey <iamsergeydzyuba@mail.ru> 1725559994 +0300
 committer Dzyuba Sergey <iamsergeydzyuba@mail.ru> 1725559994 +0300
 
 
+# Task 2
+
+## git checkout -b git-reset-practice
+
+Switched to a new branch 'git-reset-practice'
+
+## Created commits with file.txt
+
+## git reset --soft HEAD~1
+
+## git reset --hard HEAD~1
+
+HEAD is now at 83e9765 First commit
+
+## git reflog
+
+83e9765 (HEAD -> git-reset-practice) HEAD@{0}: reset: moving to HEAD~1
+04fe51b HEAD@{1}: reset: moving to HEAD~1
+fb5de25 HEAD@{2}: commit: Third commit
+04fe51b HEAD@{3}: commit: Second commit
+83e9765 (HEAD -> git-reset-practice) HEAD@{4}: commit: First commit
+3a73296 (origin/lab3, lab3) HEAD@{5}: checkout: moving from lab3 to git-reset-practice
+3a73296 (origin/lab3, lab3) HEAD@{6}: commit: submission3 with task1
+248fb42 HEAD@{7}: commit: submission3
+ec9924f (origin/lab2, lab2) HEAD@{8}: checkout: moving from lab2 to lab3
+ec9924f (origin/lab2, lab2) HEAD@{9}: commit: Site
+eeff540 HEAD@{10}: commit: lab2
+61404c0 (origin/master, origin/HEAD, master) HEAD@{11}: checkout: moving from lab1 to lab2
+bd84c6a (origin/lab1, lab1) HEAD@{12}: commit: Merge Strategies
+c9c90d1 HEAD@{13}: commit: Signed commits
+292ec76 HEAD@{14}: commit: submission1
+61404c0 (origin/master, origin/HEAD, master) HEAD@{15}: checkout: moving from lab1 to lab1
+61404c0 (origin/master, origin/HEAD, master) HEAD@{16}: checkout: moving from master to lab1
+61404c0 (origin/master, origin/HEAD, master) HEAD@{17}: clone: from https://github.com/rationalf/F24-intro-labs.git
+
+## git reset --hard 83e9765
+
+HEAD is now at 83e9765 First commit
 
