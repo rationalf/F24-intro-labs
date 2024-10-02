@@ -1,21 +1,12 @@
-# Lab-8
+# Lab-9
 
 ## Task - 1
 
-1)docker ps -a
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-2) docker pull ubuntu:latest
-latest: Pulling from library/ubuntu
-dafa2b0c44d2: Pull complete
-Digest: sha256:dfc10878be8d8fc9c61cbff33166cb1d1fe44391539243703c72766894fa834a
-Status: Downloaded newer image for ubuntu:latest
-docker.io/library/ubuntu:latest
-3) docker run -it --name ubuntu_container ubuntu:latest
-root@a0e2c91dcc9f:/#
-4) docker rmi ubuntu:latest
-Untagged: ubuntu:latest
-Untagged: ubuntu@sha256:dfc10878be8d8fc9c61cbff33166cb1d1fe44391539243703c72766894fa834a
-Deleted: sha256:b1e9cef3f2977f8bdd19eb9ae04f83b315f80fe4f5c5651fedf41482c12432f7
+1) GitHub Actions allows us automate build tests and deployment pipeline.
+2) I create file with name .github/workflows/github-actions-demo.yml and it creates new branch for this.
+3) I check what create this file in Action tab.
+
+
 ## Task 2
 
 1) docker save -o ubuntu_image.tar ubuntu:latest
